@@ -11,86 +11,140 @@
 
     <header>
         <nav>
-            <h2>Muthu Karpaharam</h2>
 
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#certificates">Certificates</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+    <div class="nav-container">
+
+        <h2 class="logo">Muthu Karpaharam</h2>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-toggle">🌙</button>
+
+    </div>
+
+</nav>
     </header>
 
     <section id="home" class="home">
 
-        <div class="home-text">
+    <div class="home-text">
 
-            <h1>
-                Hi, I'm <span>Muthu Karpaharam</span>
-            </h1>
+        <p class="welcome">WELCOME TO MY PORTFOLIO</p>
 
-            <h2>
-                Computer Science & Engineering Student
-            </h2>
+        <h1>
+            Hi, I'm <span>Muthu Karpaharam</span>
+        </h1>
 
-            <p>
-                I am passionate about software development, programming
-                and building practical applications. I enjoy learning
-                new technologies and solving real-world problems through code.
-            </p>
+        <h2>
+            Computer Science & Engineering Student
+        </h2>
 
-            <div class="buttons">
-                <a href="#projects">View Projects</a>
-                <a href="#contact">Contact Me</a>
-            </div>
+        <p class="intro">
+            I am passionate about software development, programming
+            and building practical applications. I enjoy learning
+            new technologies and solving real-world problems through code.
+        </p>
 
+        <div class="buttons">
+            <a href="#projects">View Projects</a>
+            <a href="#contact">Contact Me</a>
         </div>
 
-        <div class="home-image">
+    </div>
+
+    <div class="home-image">
+
+        <div class="image-frame">
             <img src="images/profile.jpeg" alt="Muthu Karpaharam">
         </div>
 
-    </section>
+    </div>
+
+</section>
 
     <section id="about">
 
     <h2>About Me</h2>
 
-    <p>
-        I am a Computer Science and Engineering student with an interest
-        in software development and full-stack application development.
-        I enjoy learning new technologies, improving my programming skills
-        and building practical projects.
-    </p>
+    <div class="about-card">
 
-    <p>
-        My current technical skills include Java, C, SQL, HTML, CSS,
-        JavaScript, Spring Boot and MySQL. I am continuously working on
-        developing my technical knowledge and gaining practical experience.
-    </p>
+        <p>
+            I am a Computer Science and Engineering student with an interest
+            in software development and full-stack application development.
+            I enjoy learning new technologies, improving my programming skills
+            and building practical projects.
+        </p>
+
+        <p>
+            My current technical skills include Java, C, SQL, HTML, CSS,
+            JavaScript, Spring Boot and MySQL. I am continuously working on
+            developing my technical knowledge and gaining practical experience.
+        </p>
+
+    </div>
 
 </section>
     <section id="skills">
 
-        <h2>Skills</h2>
+    <h2>Skills</h2>
 
-        <div class="skills-container">
-    <div>Java</div>
-    <div>C Programming</div>
-    <div>SQL</div>
-    <div>HTML</div>
-    <div>CSS</div>
-    <div>JavaScript</div>
-    <div>Spring Boot</div>
-    <div>MySQL</div>
-    <div>Git & GitHub</div>
-</div>
-    </section>
+    <div class="skills-container">
 
+        <div class="skill-card">
+            <h3>Java</h3>
+            <p>Programming</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>C Programming</h3>
+            <p>Programming</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>SQL</h3>
+            <p>Database</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>HTML</h3>
+            <p>Web Development</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>CSS</h3>
+            <p>Web Development</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>JavaScript</h3>
+            <p>Web Development</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Spring Boot</h3>
+            <p>Backend Development</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>MySQL</h3>
+            <p>Database</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Git & GitHub</h3>
+            <p>Version Control</p>
+        </div>
+
+    </div>
+
+</section>
     <section id="projects">
 
     <h2>Projects</h2>
@@ -103,8 +157,13 @@
 
             <p>
                 A full-stack web application developed to manage student
-                information such as name, roll number, department, email
-                and marks.
+                records efficiently. The system allows users to add, view,
+                update, search and delete student information.
+            </p>
+
+            <p>
+                <strong>Features:</strong>
+                Student Management, CRUD Operations, Search, Data Validation
             </p>
 
             <p>
@@ -115,9 +174,9 @@
             <div class="buttons">
 
                 <a href="https://github.com/muthuram1819-png/student-management"
-   target="_blank">
-    GitHub
-</a>
+                   target="_blank">
+                    GitHub
+                </a>
 
                 <a href="https://student-management-production-7352.up.railway.app"
                    target="_blank">
@@ -127,6 +186,7 @@
             </div>
 
         </div>
+        
 
     </div>
 
@@ -141,21 +201,57 @@
         <h3>B.E. Computer Science and Engineering</h3>
 
         <p>
-            Hindusthan College of Engineering and Technology
+            <strong>Hindusthan College of Engineering and Technology</strong>
         </p>
 
         <p>
-            Computer Science and Engineering
+            Coimbatore, Tamil Nadu
         </p>
 
         <p>
             Currently Pursuing
         </p>
+
         <p>
-    CGPA: 8.74
-</p>
+            <strong>CGPA:</strong> 8.74
+        </p>
 
     </div>
+    <div class="education-card">
+
+    <h3>Higher Secondary Education (12th)</h3>
+
+    <p>
+        Pulamadan Chettiyar National Higher Secondary School
+    </p>
+
+    <p>
+        <strong>Score:</strong> 474 / 600
+    </p>
+
+    <p>
+        <strong>Percentage:</strong> 79%
+    </p>
+
+</div>
+
+<div class="education-card">
+
+    <h3>Secondary Education (10th)</h3>
+
+    <p>
+        Pulamadan Chettiyar National Higher Secondary School
+    </p>
+
+    <p>
+        <strong>Score:</strong> 439 / 500
+    </p>
+
+    <p>
+        <strong>Percentage:</strong> 87.8%
+    </p>
+
+</div>
 
 </section>
     <section id="certificates">
@@ -186,11 +282,14 @@
 
     <h2>Contact Me</h2>
 
-    <p>Feel free to connect with me through the following platforms.</p>
+    <p class="contact-intro">
+        Feel free to connect with me through the following platforms.
+    </p>
 
     <div class="contact-container">
 
         <a href="mailto:ksmmuthuram2007@gmail.com" class="contact-card">
+            <div class="contact-icon">✉</div>
             <h3>Email</h3>
             <p>ksmmuthuram2007@gmail.com</p>
         </a>
@@ -198,6 +297,7 @@
         <a href="https://github.com/muthuram1819-png"
            target="_blank"
            class="contact-card">
+            <div class="contact-icon">◉</div>
             <h3>GitHub</h3>
             <p>View My GitHub</p>
         </a>
@@ -205,6 +305,7 @@
         <a href="https://www.linkedin.com/in/muthu-karpaharam-a-031a71425"
            target="_blank"
            class="contact-card">
+            <div class="contact-icon">in</div>
             <h3>LinkedIn</h3>
             <p>View My LinkedIn</p>
         </a>
@@ -221,6 +322,13 @@
 </footer>
 
     <script src="script.js"></script>
+    <footer>
+
+    <p>
+        © 2026 Muthu Karpaharam. All Rights Reserved.
+    </p>
+
+</footer>
 
 </body>
 </html>
