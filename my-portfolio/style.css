@@ -508,3 +508,12 @@ section {
         transform: translateY(0);
     }
 }
+section {
+    scroll-margin-top: 90px;
+}
+
+@media (max-width: 768px) {
+    section {
+        scroll-margin-top: 140px;
+    }
+}
