@@ -453,7 +453,33 @@ footer p {
 section {
     animation: fadeUp 0.8s ease;
 }
+@media (max-width: 768px) {
 
+    header {
+        padding: 15px 5%;
+    }
+
+     {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav h2 {
+      nav  font-size: 22px;
+        text-align: center;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+        padding: 7px 9px;
+    }
 
     .home {
         min-height: auto;
