@@ -1490,3 +1490,47 @@ body.dark-mode .certificate-card a {
     }
 
 }
+/* Mobile Navbar - Bigger + Dark Mode */
+
+@media (max-width: 600px) {
+
+    nav {
+        height: 68px !important;
+        min-height: 68px !important;
+        padding: 0 8px !important;
+    }
+
+    nav h2 {
+        font-size: 12px !important;
+        margin-right: 3px !important;
+    }
+
+    nav ul {
+        gap: 1px !important;
+    }
+
+    nav ul li a {
+        font-size: 9px !important;
+        padding: 6px 1px !important;
+    }
+
+    #theme-toggle {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+
+        position: static !important;
+        flex: 0 0 24px !important;
+
+        width: 24px !important;
+        height: 30px !important;
+
+        font-size: 21px !important;
+        padding: 0 !important;
+        margin-left: 3px !important;
+
+        border: none !important;
+        background: transparent !important;
+    }
+
+}
