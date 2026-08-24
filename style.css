@@ -1208,3 +1208,63 @@ body.dark-mode .certificate-card a {
         font-size: 19px;
     }
 }
+
+@media (max-width: 600px) {
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        padding: 15px 12px;
+        gap: 12px;
+        overflow-x: auto;
+    }
+
+    nav h2 {
+        flex-shrink: 0;
+        width: auto;
+        margin: 0;
+        font-size: 18px;
+        white-space: nowrap;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 18px;
+        width: auto;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        flex-shrink: 0;
+    }
+
+    nav ul li {
+        flex-shrink: 0;
+        margin: 0;
+    }
+
+    nav ul li a {
+        display: inline-block;
+        padding: 5px 0;
+        font-size: 13px;
+        white-space: nowrap;
+    }
+
+    .theme-toggle {
+        position: static;
+        flex-shrink: 0;
+        font-size: 18px;
+        padding: 3px;
+    }
+
+    /* Hide scrollbar but keep horizontal scrolling */
+    nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    nav {
+        scrollbar-width: none;
+    }
+}
