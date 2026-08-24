@@ -4,331 +4,377 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muthu Karpaharam | Portfolio</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <nav>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Muthu</div>
 
-    <div class="nav-container">
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+    ☀️
+</button>
+    </nav>
 
-        <h2 class="logo">Muthu Karpaharam</h2>
+   <section id="home" class="home">
+    <div class="home-content">
 
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#certificates">Certificates</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <button id="theme-toggle" class="theme-toggle">🌙</button>
+        <img src="images/profile.jpeg"
+             alt="Muthu Karpaharam"
+             class="profile-img">
 
-    </div>
+        <p class="hello">Hello, I'm</p>
 
-</nav>
-    </header>
-
-    <section id="home" class="home">
-
-    <div class="home-text">
-
-        <p class="welcome">WELCOME TO MY PORTFOLIO</p>
-
-        <h1>
-            Hi, I'm <span>Muthu Karpaharam</span>
-        </h1>
+        <h1>Muthu Karpaharam</h1>
 
         <h2>
-            Computer Science & Engineering Student
-        </h2>
-
-        <p class="intro">
-            I am passionate about software development, programming
-            and building practical applications. I enjoy learning
-            new technologies and solving real-world problems through code.
+    <span id="typing-text"></span>
+</h2>
+        <p>
+            Interested in Java, Data Analytics and Software Development.
+            I enjoy learning new technologies and building practical projects.
         </p>
 
-        <div class="buttons">
-            <a href="#projects">View Projects</a>
-            <a href="#contact">Contact Me</a>
+        <div class="home-buttons">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="#contact" class="btn secondary-btn">Contact Me</a>
+        </div>
+        <div class="social-links">
+
+    <a href="https://github.com/muthuram1819-png"
+       target="_blank"
+       aria-label="GitHub">
+        GitHub
+    </a>
+
+    <a href="https://www.linkedin.com/in/muthu-karpaharam-a-031a71425"
+       target="_blank"
+       aria-label="LinkedIn">
+        LinkedIn
+    </a>
+
+    <a href="mailto:ksmmuthuram2007@gmail.com"
+       aria-label="Email">
+        Email
+    </a>
+
+</div>
+
+    </div>
+</section>
+   <!-- About -->
+<section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about-container">
+
+        <div class="about-text">
+            <p>
+                I am a Computer Science and Engineering student with a strong
+                interest in software development and data analytics.
+            </p>
+
+            <p>
+                I enjoy solving problems, learning new technologies, and
+                building practical projects that strengthen my technical skills.
+                I am currently focused on Java, SQL, web technologies, and
+                developing my knowledge in data analytics.
+            </p>
+        </div>
+
+        <div class="about-details">
+
+            <div class="detail-card">
+                <h3>Education</h3>
+                <p>B.E. Computer Science & Engineering</p>
+            </div>
+
+            <div class="detail-card">
+                <h3>CGPA</h3>
+                <p>8.74</p>
+            </div>
+
+            <div class="detail-card">
+                <h3>Focus</h3>
+                <p>Software Development & Data Analytics</p>
+            </div>
+
         </div>
 
     </div>
-
-    <div class="home-image">
-
-        <div class="image-frame">
-            <img src="images/profile.jpeg" alt="Muthu Karpaharam">
-        </div>
-
-    </div>
-
 </section>
-
-    <section id="about">
-
-    <h2>About Me</h2>
-
-    <div class="about-card">
-
-        <p>
-            I am a Computer Science and Engineering student with an interest
-            in software development and full-stack application development.
-            I enjoy learning new technologies, improving my programming skills
-            and building practical projects.
-        </p>
-
-        <p>
-            My current technical skills include Java, C, SQL, HTML, CSS,
-            JavaScript, Spring Boot and MySQL. I am continuously working on
-            developing my technical knowledge and gaining practical experience.
-        </p>
-
-    </div>
-
-</section>
-    <section id="skills">
-
-    <h2>Skills</h2>
+    <!-- Skills -->
+<section id="skills" class="section">
+    <h2 class="section-title">My Skills</h2>
 
     <div class="skills-container">
 
         <div class="skill-card">
             <h3>Java</h3>
-            <p>Programming</p>
+            <p>Core Java & OOP Concepts</p>
+
+            <div class="skill-bar">
+                <div class="skill-progress java"></div>
+            </div>
         </div>
 
         <div class="skill-card">
-            <h3>C Programming</h3>
-            <p>Programming</p>
+            <h3>Python</h3>
+            <p>Programming & Problem Solving</p>
+
+            <div class="skill-bar">
+                <div class="skill-progress python"></div>
+            </div>
         </div>
 
         <div class="skill-card">
             <h3>SQL</h3>
-            <p>Database</p>
+            <p>Database & Query Management</p>
+
+            <div class="skill-bar">
+                <div class="skill-progress sql"></div>
+            </div>
         </div>
 
         <div class="skill-card">
-            <h3>HTML</h3>
-            <p>Web Development</p>
-        </div>
+            <h3>HTML & CSS</h3>
+            <p>Web Page Development</p>
 
-        <div class="skill-card">
-            <h3>CSS</h3>
-            <p>Web Development</p>
+            <div class="skill-bar">
+                <div class="skill-progress html"></div>
+            </div>
         </div>
 
         <div class="skill-card">
             <h3>JavaScript</h3>
-            <p>Web Development</p>
-        </div>
+            <p>Web Interactions & Logic</p>
 
-        <div class="skill-card">
-            <h3>Spring Boot</h3>
-            <p>Backend Development</p>
-        </div>
-
-        <div class="skill-card">
-            <h3>MySQL</h3>
-            <p>Database</p>
+            <div class="skill-bar">
+                <div class="skill-progress javascript"></div>
+            </div>
         </div>
 
         <div class="skill-card">
             <h3>Git & GitHub</h3>
-            <p>Version Control</p>
+            <p>Version Control & Projects</p>
+
+            <div class="skill-bar">
+                <div class="skill-progress github"></div>
+            </div>
         </div>
 
     </div>
-
 </section>
-    <section id="projects">
+    <!-- Projects -->
+<section id="projects" class="section">
+    <h2 class="section-title">My Projects</h2>
 
-    <h2>Projects</h2>
-
-    <div class="project-container">
+    <div class="projects-container">
 
         <div class="project-card">
 
-            <h3>Student Management System</h3>
+    <h3>Student Management System</h3>
 
-            <p>
-                A full-stack web application developed to manage student
-                records efficiently. The system allows users to add, view,
-                update, search and delete student information.
-            </p>
+    <p>
+        A full-stack student management application designed to manage
+        student details, marks, departments and academic information
+        efficiently.
+    </p>
 
-            <p>
-                <strong>Features:</strong>
-                Student Management, CRUD Operations, Search, Data Validation
-            </p>
+    <h4 class="tech-title">Tech Stack</h4>
 
-            <p>
-                <strong>Technologies:</strong>
-                Java, Spring Boot, MySQL, HTML, CSS and JavaScript
-            </p>
-
-            <div class="buttons">
-
-                <a href="https://github.com/muthuram1819-png/student-management"
-                   target="_blank">
-                    GitHub
-                </a>
-
-                <a href="https://student-management-production-7352.up.railway.app"
-                   target="_blank">
-                    Live Demo
-                </a>
-
-            </div>
-
-        </div>
-        
-
+    <div class="project-tech">
+        <span>Java</span>
+        <span>Spring Boot</span>
+        <span>MySQL</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
     </div>
 
-</section>
+    <div class="project-buttons">
 
-    <section id="education">
+        <a
+            href="https://github.com/muthuram1819-png/student-management-system"
+            target="_blank"
+            class="project-btn">
+            View on GitHub
+        </a>
 
-    <h2>Education</h2>
-
-    <div class="education-card">
-
-        <h3>B.E. Computer Science and Engineering</h3>
-
-        <p>
-            <strong>Hindusthan College of Engineering and Technology</strong>
-        </p>
-
-        <p>
-            Coimbatore, Tamil Nadu
-        </p>
-
-        <p>
-            Currently Pursuing
-        </p>
-
-        <p>
-            <strong>CGPA:</strong> 8.74
-        </p>
+        <a
+            href="https://student-management-production-7352.up.railway.app/students"
+            target="_blank"
+            class="project-btn live-btn">
+            Live Demo
+        </a>
 
     </div>
-    <div class="education-card">
-
-    <h3>Higher Secondary Education (12th)</h3>
-
-    <p>
-        Pulamadan Chettiyar National Higher Secondary School
-    </p>
-
-    <p>
-        <strong>Score:</strong> 474 / 600
-    </p>
-
-    <p>
-        <strong>Percentage:</strong> 79%
-    </p>
 
 </div>
-
-<div class="education-card">
-
-    <h3>Secondary Education (10th)</h3>
-
-    <p>
-        Pulamadan Chettiyar National Higher Secondary School
-    </p>
-
-    <p>
-        <strong>Score:</strong> 439 / 500
-    </p>
-
-    <p>
-        <strong>Percentage:</strong> 87.8%
-    </p>
-
-</div>
-
 </section>
-    <section id="certificates">
+<!-- Certifications -->
+<section id="certifications" class="section">
 
-    <h2>Certificates</h2>
+    <h2 class="section-title">Certifications</h2>
 
-    <div class="certificate-container">
+    <div class="certifications-container">
 
-        <div class="certificate-card">
-            <h3>Introduction To IOT</h3>
-            <a href="images/certificate1.jpeg" target="_blank">
+        <div class="certification-card"
+             onclick="openCertificate('images/certificate1.jpeg')">
+
+            <h3>Introduction To IoT</h3>
+
+            <p>Certificate</p>
+
+            <button class="certificate-btn">
                 View Certificate
-            </a>
+            </button>
+
         </div>
 
-        <div class="certificate-card">
-            <h3>Javascript For Begginers</h3>
-            <a href="images/certificate2.jpeg" target="_blank">
+        <div class="certification-card"
+             onclick="openCertificate('images/certificate2.jpeg')">
+
+            <h3>Javascript For Beginners</h3>
+
+            <p>Certificate</p>
+
+            <button class="certificate-btn">
                 View Certificate
-            </a>
+            </button>
+
         </div>
 
     </div>
 
 </section>
 
-    <section id="contact">
+<!-- Certificate Popup -->
+<div id="certificate-modal" class="certificate-modal">
 
-    <h2>Contact Me</h2>
+    <span class="close-certificate"
+          onclick="closeCertificate()">
+        &times;
+    </span>
 
-    <p class="contact-intro">
-        Feel free to connect with me through the following platforms.
-    </p>
+    <img id="certificate-preview"
+         class="certificate-preview"
+         src=""
+         alt="Certificate">
+
+</div>
+    <!-- Education -->
+<section id="education" class="section">
+    <h2 class="section-title">Education</h2>
+
+    <div class="education-container">
+
+        <div class="education-card">
+            <div class="education-year">Current</div>
+
+            <h3>B.E. Computer Science and Engineering</h3>
+
+            <p class="college-name">
+                Hindusthan College of Engineering and Technology
+            </p>
+
+            <p>Coimbatore, Tamil Nadu</p>
+
+            <p class="education-score">
+                CGPA: 8.74
+            </p>
+        </div>
+
+        <div class="education-card">
+            <div class="education-year">Higher Secondary</div>
+
+            <h3>12th Standard</h3>
+
+            <p class="college-name">
+                Pulamadan Chettiyar National Higher Secondary School
+            </p>
+
+            <p>Hometown</p>
+
+            <p class="education-score">
+                Percentage: 79%
+            </p>
+        </div>
+
+        <div class="education-card">
+            <div class="education-year">Secondary</div>
+
+            <h3>10th Standard</h3>
+
+            <p class="college-name">
+                Pulamadan Chettiyar National Higher Secondary School
+            </p>
+
+            <p>Hometown</p>
+
+            <p class="education-score">
+                Percentage: 87.8%
+            </p>
+        </div>
+
+    </div>
+</section>
+      <!-- Contact -->
+<section id="contact" class="section">
+    <h2 class="section-title">Contact Me</h2>
 
     <div class="contact-container">
 
-        <a href="mailto:ksmmuthuram2007@gmail.com" class="contact-card">
-            <div class="contact-icon">✉</div>
-            <h3>Email</h3>
-            <p>ksmmuthuram2007@gmail.com</p>
-        </a>
+        <div class="contact-card">
+    <h3>Email</h3>
 
-        <a href="https://github.com/muthuram1819-png"
-           target="_blank"
-           class="contact-card">
-            <div class="contact-icon">◉</div>
+    <a href="mailto:ksmmuthuram2007@gmail.com">
+        ksmmuthuram2007@gmail.com
+    </a>
+
+    <button id="copy-email" class="copy-btn">
+        Copy Email
+    </button>
+</div>
+
+        <div class="contact-card">
             <h3>GitHub</h3>
-            <p>View My GitHub</p>
-        </a>
+            <a href="https://github.com/muthuram1819-png" target="_blank">
+                GitHub Profile
+            </a>
+        </div>
 
-        <a href="https://www.linkedin.com/in/muthu-karpaharam-a-031a71425"
-           target="_blank"
-           class="contact-card">
-            <div class="contact-icon">in</div>
+        <div class="contact-card">
             <h3>LinkedIn</h3>
-            <p>View My LinkedIn</p>
-        </a>
+            <a href="https://www.linkedin.com/in/muthu-karpaharam-a-031a71425" target="_blank">
+                LinkedIn Profile
+            </a>
+        </div>
 
     </div>
-
 </section>
+     
     <footer>
-
     <p>© 2026 Muthu Karpaharam</p>
-
-    <p>Computer Science & Engineering Student</p>
-
+    <p>B.E. Computer Science and Engineering</p>
 </footer>
+<!-- Back to Top Button -->
+<button id="back-to-top" aria-label="Back to top">
+    ↑
+</button>
 
     <script src="script.js"></script>
-    <footer>
-
-    <p>
-        © 2026 Muthu Karpaharam. All Rights Reserved.
-    </p>
-
-</footer>
 
 </body>
 </html>
