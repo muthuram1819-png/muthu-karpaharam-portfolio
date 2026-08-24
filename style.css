@@ -1461,3 +1461,32 @@ body.dark-mode .certificate-card a {
     }
 
 }
+/* Slightly Bigger Mobile Navbar */
+
+@media (max-width: 600px) {
+
+    nav {
+        height: 62px !important;
+        min-height: 62px !important;
+        padding: 0 6px !important;
+    }
+
+    nav h2 {
+        font-size: 11px !important;
+    }
+
+    nav ul {
+        gap: 1px !important;
+    }
+
+    nav ul li a {
+        font-size: 9px !important;
+        padding: 5px 1px !important;
+    }
+
+    #theme-toggle {
+        font-size: 18px !important;
+        width: 22px !important;
+    }
+
+}
