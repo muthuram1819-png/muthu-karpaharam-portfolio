@@ -1129,3 +1129,25 @@ section {
         max-height: 80%;
     }
 }
+/* Certifications - Light Mode */
+
+body.light-theme .certification-card {
+    background: #ffffff;
+    color: #0f172a;
+    border-color: #e2e8f0;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+body.light-theme .certification-card p {
+    color: #475569;
+}
+
+body.light-theme .certificate-btn {
+    color: #0284c7;
+    border-color: #0284c7;
+}
+
+body.light-theme .certificate-btn:hover {
+    background: #0284c7;
+    color: #ffffff;
+}
