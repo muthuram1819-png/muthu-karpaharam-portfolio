@@ -1151,3 +1151,30 @@ body.light-theme .certificate-btn:hover {
     background: #0284c7;
     color: #ffffff;
 }
+/* Home Buttons - Light Mode */
+
+body.light-theme .home-buttons .btn {
+    color: #0f172a;
+}
+
+body.light-theme .home-buttons .secondary-btn {
+    color: #0f172a;
+    border-color: #0f172a;
+}
+
+body.light-theme .home-buttons .resume-btn {
+    color: #0284c7;
+    border-color: #0284c7;
+}
+
+/* Social Links - Light Mode */
+
+body.light-theme .social-links a {
+    color: #0f172a;
+    border-color: #64748b;
+}
+
+body.light-theme .social-links a:hover {
+    color: #0284c7;
+    border-color: #0284c7;
+}
